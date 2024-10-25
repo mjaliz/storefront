@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     "django.contrib.admin",
+    "django.contrib.sessions",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.messages",
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     "playground",
     "debug_toolbar",
     "store",
+    "store_custom",
     "tags",
     "likes",
 ]
@@ -87,7 +89,7 @@ WSGI_APPLICATION = "storefront.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "avayar_db",
+        "NAME": "avayar_db_2",
         "USER": "avayar_user",
         "PASSWORD": "cvV895xP8AnTbfbekCvgwSWvyAzzfSff",
         "HOST": "127.0.0.1",
